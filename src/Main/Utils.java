@@ -54,5 +54,11 @@ public class Utils {
 		}
 		return true;
 	}
+	
+	public static void swap(int[] args,int loc1,int loc2){
+		int temp = args[loc1];
+		args[loc1] = args[loc2];
+		args[loc2] = temp;
+	}
 
 }
